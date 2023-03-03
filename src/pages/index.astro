@@ -1,4 +1,6 @@
 ---
+import	'./index.css';
+import bootstrap from "bootstrap/dist/js/bootstrap.bundle.min.js?url";
 ---
 
 <html lang="en">
@@ -8,8 +10,31 @@
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+		<link href="../../public/fontawesome/css/fontawesome.css" rel="stylesheet">
+		<link href="../../public/fontawesome/css/brands.css" rel="stylesheet">
+		<link href="../../public/fontawesome/css/solid.css" rel="stylesheet">
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<div class='header-fix row'>
+			<span class="span-left-header-fix col-6"> <i class="fa-sharp fa-solid fa-location-dot"></i> số 23 ngõ 150 Tân Khai Hoàng Mai Hà Nội</span>
+			<span class="span-right-header-fix col-6"> <i class="fa-solid fa-phone"></i> 0976634283</span>
+		</div>
+		<div class="logo">
+			<img src="http://www.masterrepair.in/wp-content/themes/twentytwentyone/img/LOGO.png" alt="">
+			<p>Q&T</p>
+		</div>
+		<div class="banner">
+			<img class="img-banner" alt="" src="http://www.masterrepair.in/wp-content/uploads/2021/04/refrigerator-repair-faridabad.jpg">
+			<div class="content-text">
+				<h2>Sửa chữa điện nước – máy bơm tại Hà Nội</h2><br>
+				<p>Chuyên: sửa điện chập cháy, sửa máy bơm, sửa ống nước, sửa vòi nước, lắp đặt hệ thống điện nước dân dụng, thông tắc cống, thông tắc bồn rửa bát, hút bể phốt… Dịch vụ uy tín, chuyên nghiệp, thợ giỏi, trung thực tuyệt đối. Bảo hành dài hạn cho khách hàng</p>
+			</div>
+		</div>
+		<div class='conten1'>
+
+		</div>
+		<div class="content2"></div>
+		<div class="footer"></div>
 	</body>
 </html>
